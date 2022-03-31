@@ -1,0 +1,4 @@
+rootProject.name = "4K Full Wallpapers"
+include ':app'
+include ':photofilterssdk'
+

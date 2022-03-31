@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.abdulaziz.a4kfullwallpapers.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_showFragment"
+            app:destination="@id/showFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showFragment"
+        android:name="com.abdulaziz.a4kfullwallpapers.fragments.ShowFragment"
+        android:label="fragment_show"
+        tools:layout="@layout/fragment_show" >
+        <action
+            android:id="@+id/action_showFragment_to_editFragment"
+            app:destination="@id/editFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.abdulaziz.a4kfullwallpapers.fragments.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" >
+        <action
+            android:id="@+id/action_categoryFragment_to_showFragment"
+            app:destination="@id/showFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/innerShowFragment"
+        android:name="com.abdulaziz.a4kfullwallpapers.fragments.InnerShowFragment"
+        android:label="fragment_inner_show"
+        tools:layout="@layout/fragment_inner_show" />
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.abdulaziz.a4kfullwallpapers.fragments.EditFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" />
+    <fragment
+        android:id="@+id/pagerFragment"
+        android:name="com.abdulaziz.a4kfullwallpapers.fragments.PagerFragment"
+        android:label="fragment_pager"
+        tools:layout="@layout/fragment_pager" />
+</navigation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@color/color_one"
+    android:gravity="bottom|center_horizontal"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="30dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_role_playing"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4K Full\nWallpapers"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:paddingHorizontal="20dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
